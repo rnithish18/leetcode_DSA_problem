@@ -6,7 +6,7 @@ class Solution {
          boolean b=false;
          for(int j=0;j<s.length();j++){
             char ch=s.charAt(j);
-            if(allowed.contains(String.valueOf(ch))){
+            if(allowed.contains(ch+"")){
                  b=true;
             }else{
                 b=false;
